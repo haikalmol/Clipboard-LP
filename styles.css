@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  width: 100%;
+  background: url("./images/bg-header-mobile.png") no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 100%;
+}
+
+main,
+section {
+  padding: 0 1.5rem;
+}
+
+main {
+  margin: 7rem 0 0 0;
+}
+main img {
+  margin: 0 auto 3rem auto;
+}
+main h1 {
+  margin-bottom: 1.25rem;
+}
+main p {
+  padding: 0 0.2rem;
+  margin-bottom: 2rem;
+}
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+main h2 {
+  margin-bottom: 1.25rem;
+}
+
+.download-ios,
+.download-mac {
+  padding: 1.25rem 0;
+  width: 100%;
+  max-width: 400px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 3px;
+  border-radius: 50px;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.download-ios:active,
+.download-mac:active,
+.download-ios:hover,
+.download-mac:hover {
+  opacity: 0.7;
+}
+
+button {
+  cursor: pointer;
+}
+
+.download-ios {
+  background-color: #26baa4;
+  border-bottom-color: #1c9f8a;
+}
+
+.download-mac {
+  background-color: #6173ff;
+  border-bottom-color: #6174fe;
+}
+
+.img-computer,
+.img-devices {
+  width: 100%;
+  height: auto;
+}
+
+.img-computer {
+  margin: 4rem 0;
+}
+
+.section-1 {
+  margin-bottom: 10rem;
+}
+.section-1 h2 {
+  margin-bottom: 0.75rem;
+}
+.section-1 p {
+  margin-bottom: 3rem;
+}
+
+.section-2 {
+  margin-bottom: 7rem;
+}
+.section-2 h2 {
+  margin-bottom: 1rem;
+}
+.section-2 p {
+  margin-bottom: 3rem;
+}
+
+.section-3 {
+  margin-bottom: 7rem;
+}
+.section-3 h2 {
+  padding: 0 1.5rem;
+  margin-bottom: 1rem;
+}
+.section-3 p {
+  margin-bottom: 6rem;
+}
+.section-3 div img {
+  margin: 0 auto 3rem auto;
+}
+.section-3 div h3 {
+  margin-bottom: 1.5rem;
+}
+.section-3 div p {
+  margin-bottom: 3.5rem;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+.section-4 img {
+  margin-bottom: 4.5rem;
+}
+
+.section-5 {
+  margin-bottom: 8rem;
+}
+.section-5 h2 {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.section-5 p {
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+.section-5 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #f5f6f8;
+  padding: 3.25rem 0;
+}
+footer .footer-logo {
+  width: 60px;
+  height: auto;
+  margin: 0 auto 3rem auto;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav li {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+footer nav a {
+  text-decoration: none;
+  color: #4c545d;
+}
+footer nav a:active,
+footer nav a:hover {
+  color: #26baa4;
+}
+footer .socials {
+  display: flex;
+  justify-content: center;
+}
+footer .socials img {
+  width: 30px;
+  height: auto;
+}
+footer .socials img:active,
+footer .socials img:hover {
+  filter: invert(57%) sepia(69%) saturate(436%) hue-rotate(122deg) brightness(92%) contrast(91%);
+}
+footer .socials .facebook-logo,
+footer .socials .twitter-logo {
+  margin-right: 2rem;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: url("./images/bg-header-desktop.png") no-repeat;
+    background-size: contain;
+  }
+
+  main h1 {
+    font-size: 2.5rem;
+  }
+  main p {
+    padding: 0;
+    margin: 0 auto 2rem auto;
+    max-width: 650px;
+  }
+  main .snippets-para {
+    max-width: 700px;
+  }
+  main div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+
+  .download-ios {
+    margin-right: 1rem;
+  }
+
+  .download-ios,
+  .download-mac {
+    padding: 1rem 2.25rem;
+    max-width: 250px;
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 5rem;
+  }
+  .section-1 img {
+    width: 55%;
+    transform: translateX(-10%);
+    margin-right: 2rem;
+  }
+  .section-1 p {
+    max-width: 400px;
+  }
+
+  .section-2 {
+    margin-bottom: 0rem;
+  }
+  .section-2 h2 {
+    margin-bottom: 1rem;
+  }
+  .section-2 p {
+    max-width: 700px;
+    margin: 0 auto 5rem auto;
+  }
+  .section-2 img {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .section-3 {
+    margin-bottom: 6rem;
+  }
+  .section-3 .features {
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 1250px;
+  }
+  .section-3 .features div {
+    flex: 1 1 0;
+  }
+
+  .section-4 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5rem;
+    margin-bottom: 7rem;
+  }
+  .section-4 img {
+    margin-bottom: 0rem;
+    flex: 1 1 0;
+  }
+
+  .section-5 p {
+    padding: 0.5rem;
+    margin: 0 auto 3rem auto;
+    max-width: 700px;
+  }
+  .section-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 1060px) {
+  footer {
+    padding: 3.25rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .footer-logo {
+    margin: 0 5rem 0 0;
+  }
+  footer nav {
+    width: 100%;
+    max-width: 500px;
+  }
+  footer nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80px;
+    text-align: left;
+  }
+  footer nav li {
+    margin: 0.5rem 0;
+    padding-right: 5rem;
+  }
+  footer .socials img {
+    width: 25px;
+  }
+}
+@media (max-width: 1110px) {
+  .section-4 {
+    grid-auto-flow: row;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
